@@ -1,0 +1,1360 @@
+ 
+Problem description:
+Considered database: colorectal
+Number of indiviudals: 62 | Number of features: 2000
+Number of elements for LOO: 50
+Directory for outputs: D:\Documentos\Dropbox\Ivorra SVM\Latex\Article_lp_Robusto_NonlinearSOC\Codes\results\outputs-colorectal-0.25
+ 
+ 
+Step 1- list of coef. 1: -7 -2  2  7- list of coef. 2: -7 -2  2  7
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 1/4
+{Unrecognized function or variable 'MPM_L2Lp'.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Main', 'D:\Documentos\Dropbox\Ivorra SVM\Latex\Article_lp_Robusto_NonlinearSOC\Codes\Main.m', 209)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('D:\Documentos\Dropbox\Ivorra SVM\Latex\Article_lp_Robusto_NonlinearSOC\Codes\Main.m',209,0)">line 209</a>)
+                    [w,b,k1,k2,Tf]=model(Xa,Ya,C1,C2,pcoef); % Use the considered optimization model
+} 
+Main
+ 
+Problem description:
+Considered database: colorectal
+Number of indiviudals: 62 | Number of features: 2000
+Number of elements for LOO: 50
+Directory for outputs: /Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/results/outputs-colorectal-0.25
+ 
+ 
+Step 1- list of coef. 1: -7 -2  2  7- list of coef. 2: -7 -2  2  7
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 1/4
+{Incorrect number or types of inputs or outputs for function vec.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('cvx/quad_form', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/functions/@cvx/quad_form.m', 43)" style="font-weight:bold">cvx/quad_form</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/functions/@cvx/quad_form.m',43,0)">line 43</a>)
+v = vec( v );
+^^^^^^^^^^^^^
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('MPM_L2Lp', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m', 114)" style="font-weight:bold">MPM_L2Lp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m',114,0)">line 114</a>)
+        t1*k1+quad_form(w,Sigma1)/t1<=2*(w'*mu(1,:)'+b);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Main', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m', 215)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m',215,0)">line 215</a>)
+                    [w,b,k1,k2,Tf]=model(Xa,Ya,C1,C2,pcoef); % Use the considered optimization model
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+ 
+Problem description:
+Considered database: colorectal
+Number of indiviudals: 62 | Number of features: 2000
+Number of elements for LOO: 50
+Directory for outputs: /Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/results/outputs-colorectal-0.25
+ 
+ 
+Step 1- list of coef. 1: -7 -2  2  7- list of coef. 2: -7 -2  2  7
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 1/4
+
+l =
+
+     4
+
+{Invalid MEX-file
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64':
+dlopen(/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64,
+0x0006): tried:
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64'
+(code signature in <44E2EDE5-83A1-3A63-BE39-5962A5DAC222>
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64'
+not valid for use in process: library load disallowed by system
+policy),
+'/System/Volumes/Preboot/Cryptexes/OS/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64'
+(no such file),
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64'
+(code signature in <44E2EDE5-83A1-3A63-BE39-5962A5DAC222>
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexschur.mexmaca64'
+not valid for use in process: library load disallowed by system
+policy)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('schurmat_sblk', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/schurmat_sblk.m', 41)" style="font-weight:bold">schurmat_sblk</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/schurmat_sblk.m',41,0)">line 41</a>)
+            [nnzschur(p),nzlisttmp] = mexschur(pblk,At{p,1},par.nzlistA{p,1},...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HKMpred', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/HKMpred.m', 60)" style="font-weight:bold">HKMpred</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/HKMpred.m',60,0)">line 60</a>)
+            schur = schurmat_sblk(blk,At,par,schur,p,X,par.Zinv);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqlpmain', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlpmain.m', 342)" style="font-weight:bold">sqlpmain</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlpmain.m',342,0)">line 342</a>)
+            HKMpred(blk,At,par,rp,Rd,sigmu,X,Z,invZchol);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqlp', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlp.m', 242)" style="font-weight:bold">sqlp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlp.m',242,0)">line 242</a>)
+    sqlpmain(blk3,At3,C3,b,par,parbarrier3,X03,y0,Z03);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_run_solver', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/cvx_run_solver.m', 50)" style="font-weight:bold">cvx_run_solver</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/cvx_run_solver.m',50,0)">line 50</a>)
+   [ varargout{1:nargout} ] = sfunc( inputs{:} );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_sdpt3>solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/shims/cvx_sdpt3.m', 362)" style="font-weight:bold">cvx_sdpt3>solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/shims/cvx_sdpt3.m',362,0)">line 362</a>)
+[ obj, xx, y, zz, info ] = cvx_run_solver( @sqlp, blk, Avec, Cvec, b, OPTIONS, 'obj', 'x', 'y', 'z', 'info', settings, 5 ); %#ok
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m', 435)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m',435,0)">line 435</a>)
+            [ x, status, tprec, iters ] = shim.solve( At, b, c, cones, quiet, prec, solv.settings, eargs{:} );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MPM_L2Lp', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m', 119)" style="font-weight:bold">MPM_L2Lp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m',119,0)">line 119</a>)
+        cvx_end
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m', 215)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m',215,0)">line 215</a>)
+                    [w,b,k1,k2,Tf]=model(Xa,Ya,C1,C2,pcoef); % Use the considered optimization model
+} 
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+Main
+ 
+Problem description:
+Considered database: colorectal
+Number of indiviudals: 62 | Number of features: 2000
+Number of elements for LOO: 50
+Directory for outputs: /Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/results/outputs-colorectal-0.25
+ 
+ 
+Step 1- list of coef. 1: -7 -2  2  7- list of coef. 2: -7 -2  2  7
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 1/4
+{Invalid MEX-file
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64':
+dlopen(/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64,
+0x0006): tried:
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64'
+(code signature in <C4115F98-8CB2-3421-81E7-42051DE02AB1>
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64'
+not valid for use in process: library load disallowed by
+system policy),
+'/System/Volumes/Preboot/Cryptexes/OS/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64'
+(no such file),
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64'
+(code signature in <C4115F98-8CB2-3421-81E7-42051DE02AB1>
+'/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Mexfun/mexProd2.mexmaca64'
+not valid for use in process: library load disallowed by
+system policy)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Prod2', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Prod2.m', 42)" style="font-weight:bold">Prod2</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Prod2.m',42,0)">line 42</a>)
+            C = mexProd2(blk,A,B,options);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Prod3', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Prod3.m', 40)" style="font-weight:bold">Prod3</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/Prod3.m',40,0)">line 40</a>)
+            tmp = Prod2(blk,A,B,0);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('schurmat_sblk', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/schurmat_sblk.m', 84)" style="font-weight:bold">schurmat_sblk</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/schurmat_sblk.m',84,0)">line 84</a>)
+                    tmp = Prod3(pblk,X{p},Ak,Y{p},symm);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HKMpred', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/HKMpred.m', 60)" style="font-weight:bold">HKMpred</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/HKMpred.m',60,0)">line 60</a>)
+            schur = schurmat_sblk(blk,At,par,schur,p,X,par.Zinv);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqlpmain', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlpmain.m', 342)" style="font-weight:bold">sqlpmain</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlpmain.m',342,0)">line 342</a>)
+            HKMpred(blk,At,par,rp,Rd,sigmu,X,Z,invZchol);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqlp', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlp.m', 242)" style="font-weight:bold">sqlp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlp.m',242,0)">line 242</a>)
+    sqlpmain(blk3,At3,C3,b,par,parbarrier3,X03,y0,Z03);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_run_solver', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/cvx_run_solver.m', 50)" style="font-weight:bold">cvx_run_solver</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/cvx_run_solver.m',50,0)">line 50</a>)
+   [ varargout{1:nargout} ] = sfunc( inputs{:} );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_sdpt3>solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/shims/cvx_sdpt3.m', 362)" style="font-weight:bold">cvx_sdpt3>solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/shims/cvx_sdpt3.m',362,0)">line 362</a>)
+[ obj, xx, y, zz, info ] = cvx_run_solver( @sqlp, blk, Avec, Cvec, b, OPTIONS, 'obj', 'x', 'y', 'z', 'info', settings, 5 ); %#ok
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m', 435)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m',435,0)">line 435</a>)
+            [ x, status, tprec, iters ] = shim.solve( At, b, c, cones, quiet, prec, solv.settings, eargs{:} );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MPM_L2Lp', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m', 119)" style="font-weight:bold">MPM_L2Lp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m',119,0)">line 119</a>)
+        cvx_end
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m', 215)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m',215,0)">line 215</a>)
+                    [w,b,k1,k2,Tf]=model(Xa,Ya,C1,C2,pcoef); % Use the considered optimization model
+} 
+Main
+ 
+Problem description:
+Considered database: colorectal
+Number of indiviudals: 62 | Number of features: 2000
+Number of elements for LOO: 50
+Directory for outputs: /Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/results/outputs-colorectal-0.25
+ 
+ 
+Step 1- list of coef. 1: -7 -2  2  7- list of coef. 2: -7 -2  2  7
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 1/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 2/4
+
+l =
+
+     7
+
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 3/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 1/50 | Nfeat Remov.: 4/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 2/50 | Nfeat Remov.: 1/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 2/50 | Nfeat Remov.: 2/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 2/50 | Nfeat Remov.: 3/4
+
+l =
+
+     8
+
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 2/50 | Nfeat Remov.: 4/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 3/50 | Nfeat Remov.: 1/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 3/50 | Nfeat Remov.: 2/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 3/50 | Nfeat Remov.: 3/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 3/50 | Nfeat Remov.: 4/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 4/50 | Nfeat Remov.: 1/4
+
+l =
+
+     9
+
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 4/50 | Nfeat Remov.: 2/4
+ 
+Step Total: 0 (%) | C1: 1/4 | C2: 1/4  | LOO: 4/50 | Nfeat Remov.: 3/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 4/50 | Nfeat Remov.: 4/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 5/50 | Nfeat Remov.: 1/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 5/50 | Nfeat Remov.: 2/4
+
+l =
+
+    10
+
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 5/50 | Nfeat Remov.: 3/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 5/50 | Nfeat Remov.: 4/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 6/50 | Nfeat Remov.: 1/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 6/50 | Nfeat Remov.: 2/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 6/50 | Nfeat Remov.: 3/4
+
+l =
+
+    11
+
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 6/50 | Nfeat Remov.: 4/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 7/50 | Nfeat Remov.: 1/4
+ 
+Step Total: 1 (%) | C1: 1/4 | C2: 1/4  | LOO: 7/50 | Nfeat Remov.: 2/4
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('schurmat_sblk')" style="font-weight:bold">schurmat_sblk</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HKMpred', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/HKMpred.m', 60)" style="font-weight:bold">HKMpred</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/HKMpred.m',60,0)">line 60</a>)
+            schur = schurmat_sblk(blk,At,par,schur,p,X,par.Zinv);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqlpmain', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlpmain.m', 342)" style="font-weight:bold">sqlpmain</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlpmain.m',342,0)">line 342</a>)
+            HKMpred(blk,At,par,rp,Rd,sigmu,X,Z,invZchol);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqlp', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlp.m', 242)" style="font-weight:bold">sqlp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/sdpt3/Solver/sqlp.m',242,0)">line 242</a>)
+    sqlpmain(blk3,At3,C3,b,par,parbarrier3,X03,y0,Z03);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_run_solver', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/cvx_run_solver.m', 50)" style="font-weight:bold">cvx_run_solver</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/cvx_run_solver.m',50,0)">line 50</a>)
+   [ varargout{1:nargout} ] = sfunc( inputs{:} );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_sdpt3>solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/shims/cvx_sdpt3.m', 362)" style="font-weight:bold">cvx_sdpt3>solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/shims/cvx_sdpt3.m',362,0)">line 362</a>)
+[ obj, xx, y, zz, info ] = cvx_run_solver( @sqlp, blk, Avec, Cvec, b, OPTIONS, 'obj', 'x', 'y', 'z', 'info', settings, 5 ); %#ok
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m', 435)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m',435,0)">line 435</a>)
+            [ x, status, tprec, iters ] = shim.solve( At, b, c, cones, quiet, prec, solv.settings, eargs{:} );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MPM_L2Lp', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m', 119)" style="font-weight:bold">MPM_L2Lp</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Scheme/MPM_L2Lp.m',119,0)">line 119</a>)
+        cvx_end
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main', '/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m', 215)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Ivorra SVM/Latex/Article_lp_Robusto_NonlinearSOC/Codes/Main.m',215,0)">line 215</a>)
+                    [w,b,k1,k2,Tf]=model(Xa,Ya,C1,C2,pcoef); % Use the considered optimization model
+} 
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+exit
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+CV_LpXiSOCP
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+
+l =
+
+     9
+
+
+l =
+
+    10
+
+
+l =
+
+    11
+
+
+l =
+
+    12
+
+
+l =
+
+    13
+
+
+l =
+
+    14
+
+
+l =
+
+    15
+
+
+l =
+
+    16
+
+
+l =
+
+     1
+
+
+l =
+
+     2
+
+
+l =
+
+     3
+
+
+l =
+
+     4
+
+
+l =
+
+     5
+
+
+l =
+
+     6
+
+
+l =
+
+     7
+
+
+l =
+
+     8
+
+{Operation terminated by user during <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('cvxprob/eliminate', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/eliminate.m', 150)" style="font-weight:bold">cvxprob/eliminate</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/eliminate.m',150,0)">line 150</a>)
+
+
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('cvxprob/solve', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m', 18)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/lib/@cvxprob/solve.m',18,0)">line 18</a>)
+[ At, cones, sgn, Q, P, dualized ] = eliminate( prob, true, shim.dualize );
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('cvx_end', '/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Documents/MATLAB/cvx_maca64/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+        ^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('LpSVM_socXi_A1cvx', '/Users/juliolopezluis/Dropbox/Trabajos_Otros_colaboradores/Matthieu/code_LP-socp/LpSVM_socXi_A1cvx.m', 65)" style="font-weight:bold">LpSVM_socXi_A1cvx</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Trabajos_Otros_colaboradores/Matthieu/code_LP-socp/LpSVM_socXi_A1cvx.m',65,0)">line 65</a>)
+    cvx_end
+    ^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CV_LpXiSOCP', '/Users/juliolopezluis/Dropbox/Trabajos_Otros_colaboradores/Matthieu/code_LP-socp/CV_LpXiSOCP.m', 41)" style="font-weight:bold">CV_LpXiSOCP</a> (<a href="matlab: opentoline('/Users/juliolopezluis/Dropbox/Trabajos_Otros_colaboradores/Matthieu/code_LP-socp/CV_LpXiSOCP.m',41,0)">line 41</a>)
+                [Predic,Sol]=LpSVM_socXi_A1cvx(Xa,Ya,Xt,FunPara);
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+exit
