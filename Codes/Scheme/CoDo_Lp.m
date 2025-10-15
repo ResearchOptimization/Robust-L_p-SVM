@@ -69,7 +69,7 @@
 % ============================================================================
 
 
-function [w,b,k1,k2,Tf]=CoDo_Lp(X,Y,C1,C2,p)
+function [w,b,k1,k2,Tf,Sol]=CoDo_Lp(X,Y,C1,C2,p)
 
 Tinic=cputime;
 epsi=1e-7;% the threshold value below which we consider an element to be zero
@@ -101,7 +101,7 @@ Tol=10^(-3);
 % See: http://ask.cvxr.com/t/minimize-log-1-1-x-where-0-x-inf/4039/11
 
 
-for k=1:15
+for k=1:30
 
     %% 1er Paso
     cvx_begin quiet
@@ -119,16 +119,24 @@ for k=1:15
     k2>=0.0001;
     cvx_end
 
+ % display new number of nonzeros in the solution vector
+    nnz = length(find(abs(w) > epsi));
+    nnzs = [nnzs nnz];
+
+    Val_obj(k)=cvx_optval;
+
     %% 2nd Step %%
     t1n=sqrt(w'*Sigma1*w/k1);
     t2n=sqrt(w'*Sigma2*w/k2);
 
     %% 3th step: adjust the weights and re-iterate
     Phin=p./((abs(w)+epsi).^(1-p));
+    W_history(:,k) = Phin;
 
     Norm_t(k)=norm([t1;t2]-[t1n;t2n]);
     Norm_w(k)=norm(wold-w);
     Norm_b(k)=abs(bold-b);
+    TimeIter(k)=cputime-Time_iter;
     if max([Norm_t(k),Norm_w(k),Norm_b(k)])<=Tol
         break
     end
@@ -136,8 +144,16 @@ for k=1:15
     %% 4th Step: Update
     t1=t1n;
     t2=t2n;
+    Phi=Phin;
     wold=w;
     bold=b;
 
 end
 Tf=cputime-Tinic;
+Sol.w=w;
+Sol.b=b;
+Sol.nnzs=nnzs;
+Sol.Iter=k; 
+Sol.ValObj=Val_obj;
+Sol.Phi=W_history;
+Sol.TimeIter=TimeIter;
