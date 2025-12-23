@@ -93,6 +93,7 @@ Sigma2=cov(xx);
 
 clear x xx
 
+nnzs=[];
 Phi=ones(n,1);
 wold=100*ones(n,1);
 bold=100;
@@ -103,7 +104,7 @@ Tol=10^(-3);
 
 
 for k=1:30
-
+         Time_iter=cputime;
         %% 1er Paso
         cvx_begin quiet
         cvx_expert true
