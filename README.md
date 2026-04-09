@@ -29,16 +29,38 @@ Data/                 - Folder containing datasets in .mat format
     pomeroy.mat
 results/              - Folder where simulation outputs will be saved
 
+## Repository structure
+
+```text
+Structure
+├── Main.m                     # Main script to execute the program
+├── Scheme/                    # Folder containing classification and optimization models
+│   ├── SVM_Lp.m
+│   ├── CoDo_Lp_Diagonal.m
+│   ├── MEMPM_Lp_Diagonal.m
+│   ├── MPM_L2Lp.m
+│   └── SVM_L2Lp.m
+├── Data/                      # Folder containing datasets in .mat format
+│   ├── colorectal.mat
+│   ├── lymphoma_XY.mat
+│   ├── gravier.mat
+│   ├── west.mat
+│   ├── shipp.mat
+│   └── pomeroy.mat
+└── results/                   # Folder where simulation outputs will be saved
+```
+
+
 Main Components
 ---------------
-1. Main Script (Main.m): 
+1. Main Script (`Main.m`): 
    Entry point of the program. Users set parameters and execute the simulation from this script.
-2. Models (Scheme/): 
+2. Models (`Scheme/`): 
    Contains optimization functions implementing various SVM-based classification techniques.
    Default model: `itera_MPM_L2Lp_Diagonal`.
-3. Datasets (Data/): 
+3. Datasets (`Data/`): 
    Contains .mat files with sample datasets used for classification and feature selection.
-4. Results (results/): 
+4. Results (`results/`): 
    Stores outputs, such as logs, plots, and performance metrics, organized by simulation run.
 
 How to Use
